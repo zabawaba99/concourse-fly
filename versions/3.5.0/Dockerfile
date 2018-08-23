@@ -1,5 +1,7 @@
 FROM alpine:3.8
 
+ENTRYPOINT [ "fly" ]
+
 ENV \
     PATH=/usr/local/bin:$PATH \
     CONCOURSE_VERSION=v3.5.0
